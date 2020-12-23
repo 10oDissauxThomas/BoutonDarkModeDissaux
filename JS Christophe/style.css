@@ -1,0 +1,74 @@
+body{
+    background-color: grey;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    /* height: 40px; */
+}
+
+ul{
+    padding: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px 0 ;
+    margin-bottom: 10px;
+    /* background-color: tomato; */
+    /* height: 40px; */
+    /* line-height: 40px; */
+}
+
+nav{
+    display: none;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.messageSecret-js{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.txt-center{
+    text-align: center;
+}
+
+.btDarkModeSwitch{
+   text-align: start;
+}
+
+@media (min-width : 640px){
+    nav{
+        display: block;
+    }
+    #btMenu{
+        display: none;
+    }
+    ul{
+        display: flex;
+        justify-content: start;
+    }
+    nav a{
+        padding: 10px;
+    }
+}
+
